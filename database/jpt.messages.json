@@ -1,0 +1,506 @@
+[{
+  "_id": {
+    "$oid": "6a1307aec867442d02d1a960"
+  },
+  "conversation_id": "test-123",
+  "role": "user",
+  "content": "Hello, how are you?",
+  "created_at": {
+    "$date": "2026-05-24T14:14:06.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1307b1c867442d02d1a961"
+  },
+  "conversation_id": "test-123",
+  "role": "assistant",
+  "content": "Hello! I'm just a program, so I don't have feelings, but I'm here and ready to help you. How can I assist you today?",
+  "created_at": {
+    "$date": "2026-05-24T14:14:09.628Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1308dac7f52c21e3ffb789"
+  },
+  "conversation_id": "test-123",
+  "role": "user",
+  "content": "fwhat was the last question asked",
+  "created_at": {
+    "$date": "2026-05-24T14:19:06.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1308dcc7f52c21e3ffb78a"
+  },
+  "conversation_id": "test-123",
+  "role": "assistant",
+  "content": "The last question you asked was, \"Hello, how are you?\" How can I assist you further?",
+  "created_at": {
+    "$date": "2026-05-24T14:19:08.786Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14b6fe6d60e300656ef5c6"
+  },
+  "conversation_id": "test-123",
+  "role": "user",
+  "content": "fwhat was the last question asked",
+  "created_at": {
+    "$date": "2026-05-25T20:54:22.286Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14b7016d60e300656ef5c7"
+  },
+  "conversation_id": "test-123",
+  "role": "assistant",
+  "content": "The last question you asked before this one was, \"what was the last question asked.\" Is there something specific you'd like to know?",
+  "created_at": {
+    "$date": "2026-05-25T20:54:25.061Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14bc228f78f96a17c21ea1"
+  },
+  "conversation_id": "1",
+  "role": "user",
+  "content": "whats the root of 64",
+  "created_at": {
+    "$date": "2026-05-25T21:16:18.894Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14bc248f78f96a17c21ea2"
+  },
+  "conversation_id": "1",
+  "role": "assistant",
+  "content": "The square root of 64 is 8, since \\( 8 \\times 8 = 64 \\).",
+  "created_at": {
+    "$date": "2026-05-25T21:16:20.841Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14bc6e28cb287397d430a7"
+  },
+  "conversation_id": "1",
+  "role": "user",
+  "content": "and the root of 225",
+  "created_at": {
+    "$date": "2026-05-25T21:17:34.804Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14bc7028cb287397d430a8"
+  },
+  "conversation_id": "1",
+  "role": "assistant",
+  "content": "The square root of 225 is 15, since \\( 15 \\times 15 = 225 \\).",
+  "created_at": {
+    "$date": "2026-05-25T21:17:36.978Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14bce684add3d63ed793be"
+  },
+  "conversation_id": "1",
+  "role": "user",
+  "content": "and the root of 225",
+  "created_at": {
+    "$date": "2026-05-25T21:19:34.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a14bce884add3d63ed793bf"
+  },
+  "conversation_id": "1",
+  "role": "assistant",
+  "content": "The square root of 225 is 15, since \\( 15 \\times 15 = 225 \\).",
+  "created_at": {
+    "$date": "2026-05-25T21:19:36.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f4db83c611a4ab148f2c"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "procceed",
+  "created_at": {
+    "$date": "2026-05-27T13:42:51.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f4dd83c611a4ab148f2d"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "It seems like you might be asking for assistance with something specific. Could you please clarify what you would like to proceed with? Whether it's a question, a task, or a topic, I'm here to help!",
+  "created_at": {
+    "$date": "2026-05-27T13:42:53.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f4f583c611a4ab148f2e"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "whats the diff between an object and a type",
+  "created_at": {
+    "$date": "2026-05-27T13:43:17.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f50583c611a4ab148f2f"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "In programming, particularly in languages that support object-oriented programming, the distinction between \"object\" and \"type\" is fundamental. Here's a breakdown of the differences:\n\n### Type:\n1. **Definition**: A type (or data type) is a classification that specifies which kind of value a variable can hold and the operations that can be performed on it. Types define the structure and behavior of data.\n  \n2. **Categories**: Types can be built-in (like integers, strings, floats) or user-defined (like classes or structs in languages like Java, C++, or Python).\n\n3. **Characteristics**: Types provide a blueprint for creating objects and dictate characteristics like the size of the data in memory, the methods available, and how the data can be interacted with.\n\n4. **Static vs. Dynamic**: In statically typed languages, types are known at compile time. In dynamically typed languages, types are determined at runtime.\n\n### Object:\n1. **Definition**: An object is an instance of a type (or class), created based on the type's definition. It represents a specific item or entity that has state (data) and behavior (methods).\n\n2. **Characteristics**: Objects encapsulate data and functionality. They maintain their own state and can interact with other objects. For example, if you have a class `Car`, each car object (like `myCar` or `yourCar`) is an instance of that class.\n\n3. **Instantiation**: Objects are created through a process called instantiation, which typically involves calling a constructor of the class/type.\n\n### Example:\nLet's illustrate with an example in Python:\n\n```python\nclass Car:  # 'Car' is a type (class)\n    def __init__(self, model, year):\n        self.model = model  # state (attribute)\n        self.year = year    # state (attribute)\n\n    def drive(self):  # behavior (method)\n        print(f\"The {self.model} is driving.\")\n\n# Creating an object\nmyCar = Car(\"Toyota\", 2020)  # 'myCar' is an object of the type 'Car'\n\n# Using the object\nmyCar.drive()  # This calls the method associated with the 'Car' type\n```\n\n### Summary:\n- **Type**: Defines what characteristics and behaviors an object can have.\n- **Object**: A specific instance of a type with its own state and behavior.\n\nUnderstanding this distinction is crucial in object-oriented programming, as it helps in structuring code effectively and leveraging the principles of encapsulation, inheritance, and polymorphism.",
+  "created_at": {
+    "$date": "2026-05-27T13:43:33.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f66c83c611a4ab148f30"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "hi",
+  "created_at": {
+    "$date": "2026-05-27T13:49:32.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f67083c611a4ab148f31"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "Hello! How can I assist you today?",
+  "created_at": {
+    "$date": "2026-05-27T13:49:36.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f7dc83c611a4ab148f32"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "hi",
+  "created_at": {
+    "$date": "2026-05-27T13:55:40.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f7e283c611a4ab148f33"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "Hi again! How can I help you today?",
+  "created_at": {
+    "$date": "2026-05-27T13:55:46.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f91683c611a4ab148f34"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "hi",
+  "created_at": {
+    "$date": "2026-05-27T14:00:54.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f93183c611a4ab148f35"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "hi",
+  "created_at": {
+    "$date": "2026-05-27T14:01:21.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f93583c611a4ab148f36"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "Hello! It seems like we’re in a loop. If you have any questions or topics you’d like to discuss, feel free to share!",
+  "created_at": {
+    "$date": "2026-05-27T14:01:25.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f94083c611a4ab148f37"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "Hello! It looks like you're saying hi again. How can I assist you? If you have any questions or topics you'd like to discuss, feel free to share!",
+  "created_at": {
+    "$date": "2026-05-27T14:01:36.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f98b83c611a4ab148f38"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "what is 1+!",
+  "created_at": {
+    "$date": "2026-05-27T14:02:51.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f9ab83c611a4ab148f39"
+  },
+  "conversation_id": "1",
+  "role": "user",
+  "content": "and the root of 225",
+  "created_at": {
+    "$date": "2026-05-27T14:03:23.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f9b083c611a4ab148f3a"
+  },
+  "conversation_id": "1",
+  "role": "assistant",
+  "content": "The square root of 225 is 15.",
+  "created_at": {
+    "$date": "2026-05-27T14:03:28.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f9b383c611a4ab148f3b"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "It seems like there might be a small typo in your question. If you're asking about \\(1 + 1\\), the answer is \\(2\\).\n\nIf you meant to use \"!\" as a factorial symbol (which applies to whole numbers), then \"1!\" (one factorial) equals \\(1\\). In this case, \\(1 + 1! = 1 + 1 = 2\\).\n\nIf you meant something else, please clarify, and I'll be happy to help!",
+  "created_at": {
+    "$date": "2026-05-27T14:03:31.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f9eb83c611a4ab148f3c"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "hello",
+  "created_at": {
+    "$date": "2026-05-27T14:04:27.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f9ef83c611a4ab148f3d"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "Hello! How can I assist you today?",
+  "created_at": {
+    "$date": "2026-05-27T14:04:31.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f9f683c611a4ab148f3e"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "hello ",
+  "created_at": {
+    "$date": "2026-05-27T14:04:38.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16f9f983c611a4ab148f3f"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "Hi there! How can I help you today?",
+  "created_at": {
+    "$date": "2026-05-27T14:04:41.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fa7f83c611a4ab148f40"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "helllo",
+  "created_at": {
+    "$date": "2026-05-27T14:06:55.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fa8383c611a4ab148f41"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "Hello again! If you have any questions or topics you’d like to talk about, feel free to let me know!",
+  "created_at": {
+    "$date": "2026-05-27T14:06:59.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fa9383c611a4ab148f42"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "yes i would like to know what i said in previous prompt",
+  "created_at": {
+    "$date": "2026-05-27T14:07:15.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fa9683c611a4ab148f43"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "In your previous prompts, you primarily said variations of \"hello\" with different spellings or repetitions. If you meant something specific or have a different question, please let me know!",
+  "created_at": {
+    "$date": "2026-05-27T14:07:18.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fadb83c611a4ab148f44"
+  },
+  "conversation_id": "",
+  "role": "user",
+  "content": "and the root of 225",
+  "created_at": {
+    "$date": "2026-05-27T14:08:27.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fadc83c611a4ab148f45"
+  },
+  "conversation_id": "",
+  "role": "assistant",
+  "content": "The square root of 225 is 15. This is because \\(15 \\times 15 = 225\\). If you have any more questions or need further assistance, feel free to ask!",
+  "created_at": {
+    "$date": "2026-05-27T14:08:28.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fb33c9b40b0bb8a07e69"
+  },
+  "conversation_id": "15355796-a35e-4cf6-9ae4-d132e48e00e7",
+  "role": "user",
+  "content": "hello",
+  "created_at": {
+    "$date": "2026-05-27T14:09:55.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fb34c9b40b0bb8a07e6a"
+  },
+  "conversation_id": "15355796-a35e-4cf6-9ae4-d132e48e00e7",
+  "role": "assistant",
+  "content": "Hello! How can I assist you today?",
+  "created_at": {
+    "$date": "2026-05-27T14:09:56.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fb4ec9b40b0bb8a07e6b"
+  },
+  "conversation_id": "test-123",
+  "role": "user",
+  "content": "and the root of 225",
+  "created_at": {
+    "$date": "2026-05-27T14:10:22.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fb4fc9b40b0bb8a07e6c"
+  },
+  "conversation_id": "test-123",
+  "role": "assistant",
+  "content": "The square root of 225 is 15.",
+  "created_at": {
+    "$date": "2026-05-27T14:10:23.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fd21c28f95ad55e9b084"
+  },
+  "conversation_id": "bae81cb4-38e7-4ba2-840e-029a258aa671",
+  "role": "user",
+  "content": "hi",
+  "created_at": {
+    "$date": "2026-05-27T14:18:09.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fd23c28f95ad55e9b085"
+  },
+  "conversation_id": "bae81cb4-38e7-4ba2-840e-029a258aa671",
+  "role": "assistant",
+  "content": "Hello! How can I assist you today?",
+  "created_at": {
+    "$date": "2026-05-27T14:18:11.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fd71c28f95ad55e9b086"
+  },
+  "conversation_id": "bae81cb4-38e7-4ba2-840e-029a258aa671",
+  "role": "user",
+  "content": "what is the word flabergast mean",
+  "created_at": {
+    "$date": "2026-05-27T14:19:29.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a16fd72c28f95ad55e9b087"
+  },
+  "conversation_id": "bae81cb4-38e7-4ba2-840e-029a258aa671",
+  "role": "assistant",
+  "content": "The word \"flabbergast\" means to greatly surprise or astound someone, often to the point of being unable to react or speak. It conveys a strong sense of shock or amazement. If you have any more questions about this word or others, feel free to ask!",
+  "created_at": {
+    "$date": "2026-05-27T14:19:30.000Z"
+  }
+}]

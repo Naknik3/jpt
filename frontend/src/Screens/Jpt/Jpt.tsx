@@ -74,6 +74,7 @@ export function Jpt() {
                     onKeyDown={handleKeyDown}
                     placeholder="Ask your personal trainer..."
                     rows={1}
+                    maxLength={5000}
                 />
                 <button onClick={sendMessage} disabled={loading || !input.trim()}>
                     Send

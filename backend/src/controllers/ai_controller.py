@@ -1,8 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from openai import OpenAIError
 from pymongo.errors import PyMongoError
-from uuid import uuid4
-
 from src.models.models import ChatRequest
 from src.services.ai_service import ai_service
 
@@ -31,6 +29,3 @@ async def get_messages(conversation_id: str):
         raise HTTPException(status_code=503, detail=f"Database error: {str(e)}")
 
 
-@router.post("/conversations/new")
-def new_conversation():
-    return {"conversation_id": str(uuid4())}
