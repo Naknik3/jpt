@@ -1,88 +1,80 @@
 .about-screen {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    padding: 2rem;
-    animation: fade-up 0.4s ease;
-}
-
-.about-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.2rem;
-    background: var(--code-bg);
-    border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 2.5rem 3rem;
-    max-width: 440px;
-    width: 100%;
-    text-align: center;
-    box-shadow: var(--shadow);
+    padding: 3rem 2rem;
+    gap: 1.25rem;
+    animation: fade-up 0.5s ease;
 }
 
 .about-avatar {
-    width: 72px;
-    height: 72px;
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
     background: var(--accent);
     color: #fff;
-    font-size: 0.85rem;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 0.5px;
+    box-shadow: 0 0 0 6px var(--accent-bg);
+    margin-bottom: 0.5rem;
 }
 
 .about-name {
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 2.4rem;
+    font-weight: 700;
     color: var(--text-h);
     margin: 0;
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
 }
 
 .about-title {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    font-weight: 500;
     color: var(--accent);
     margin: 0;
-    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .about-bio {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: var(--text);
-    line-height: 1.65;
+    line-height: 1.7;
+    max-width: 420px;
+    text-align: center;
     margin: 0;
 }
 
 .about-links {
     display: flex;
     gap: 0.75rem;
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
 }
 
 .about-links a {
-    color: var(--accent);
+    color: var(--text-h);
     text-decoration: none;
     font-size: 0.88rem;
     font-weight: 500;
-    border: 1px solid var(--accent-border);
-    background: var(--accent-bg);
-    padding: 0.4rem 1rem;
+    padding: 0.45rem 1.2rem;
     border-radius: 999px;
-    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    border: 1px solid var(--border);
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 
 .about-links a:hover {
     background: var(--accent);
-    color: #fff;
     border-color: var(--accent);
+    color: #fff;
 }
 
 @keyframes fade-up {
-    from { opacity: 0; transform: translateY(16px); }
+    from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
 }
