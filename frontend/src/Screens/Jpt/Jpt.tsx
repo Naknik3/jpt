@@ -6,14 +6,16 @@ import { RootState } from "../../store/store";
 import { MessageModel } from "../../Models/MessageModel";
 import { responseService } from "../../Services/ResponseService";
 
+// Main chat screen — handles sending messages and displaying the conversation
 export function Jpt() {
     const dispatch = useDispatch();
     const messages = useSelector((state: RootState) => state.chat.messages);
     const conversationId = useSelector((state: RootState) => state.chat.conversationId);
     const [input, setInput] = useState("");
-    const [loading, setLoading] = useState(false);
-    const bottomRef = useRef<HTMLDivElement>(null);
+    const [loading, setLoading] = useState(false); // true while waiting for the AI response
+    const bottomRef = useRef<HTMLDivElement>(null); // invisible div at the bottom of the message list
 
+    // Scroll to the latest message every time a new one is added
     useEffect(() => {
         bottomRef.current?.scrollIntoView({ behavior: "smooth" });
     }, [messages]);
@@ -21,6 +23,7 @@ export function Jpt() {
     async function sendMessage() {
         if (!input.trim() || loading) return;
 
+        // Immediately show the user's message in the UI
         const userMsg: MessageModel = {
             role: "user",
             content: input,
@@ -32,6 +35,7 @@ export function Jpt() {
         setLoading(true);
 
         try {
+            // Send message to backend and wait for AI reply
             const response = await responseService.chat(conversationId, input);
             const assistantMsg: MessageModel = {
                 role: "assistant",
@@ -44,6 +48,7 @@ export function Jpt() {
         }
     }
 
+    // Allow sending with Enter, but Shift+Enter adds a new line instead
     function handleKeyDown(e: React.KeyboardEvent) {
         if (e.key === "Enter" && !e.shiftKey) {
             e.preventDefault();

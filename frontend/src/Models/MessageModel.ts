@@ -1,5 +1,6 @@
+// Shape of a single chat message — used throughout the app
 export class MessageModel {
-    role: "user" | "assistant" = "user";
-    content: string = "";
-    created_at: string = "";
+   public role?: "user" | "assistant"; // who sent it
+   public content?: string;            // the message text
+   public created_at?: string;         // ISO timestamp
 }

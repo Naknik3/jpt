@@ -3,6 +3,8 @@ import { Jpt } from "../../../Screens/Jpt/Jpt";
 import { About } from "../../../Screens/About/About";
 import { NotFound } from "../../../Screens/NotFound/NotFound";
 
+// Maps URL paths to their screen components
+// The "*" route catches any URL that doesn't match — shows a 404 page
 export function Router() {
     return (
         <Routes>
