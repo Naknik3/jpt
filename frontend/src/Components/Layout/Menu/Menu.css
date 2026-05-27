@@ -1,0 +1,41 @@
+.menu {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: var(--text);
+    padding: 0.4rem 0.85rem;
+    border-radius: 6px;
+    transition: color 0.2s ease, background 0.2s ease;
+    position: relative;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 60%;
+    height: 2px;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: transform 0.25s ease;
+}
+
+.menu a:hover {
+    color: var(--text-h);
+    background: var(--accent-bg);
+}
+
+.menu a.active {
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.menu a.active::after {
+    transform: translateX(-50%) scaleX(1);
+}
