@@ -1,0 +1,62 @@
+{
+  "info": {
+    "_postman_id": "3ead1319-e28d-48bd-8948-3568a522c56b",
+    "name": "jpt",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51856942",
+    "_collection_link": "https://go.postman.co/collection/51856942-3ead1319-e28d-48bd-8948-3568a522c56b?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "chat",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"conversation_id\": \"test-123\",\n    \"message\": \"and the root of 225\"\n  }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:3000/chat",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "3000",
+          "path": [
+            "chat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "whole convo",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/conversations/test-123",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "conversations",
+            "test-123"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
